@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.header{
+    height: 70px;
+    display: flex;
+    background-color: orangered;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.name{
+    padding: 5px 30px;
+    cursor: pointer;
+}
+.sub{
+    display: flex;
+    gap: 15px;
+}
+.sub-1{
+    background-color: orangered;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn{
+    background-color: blue;
+    display: none;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content:space-between;
+    margin: 50px;
+    padding-top: 20px;
+    gap: 30px;
+
+
+}
+.container{
+    padding: 10px;
+}
+.section{
+    color: red;
+    display: flex;
+    gap: 10px;
+}
+.wrap{
+    display: flex;
+    gap:60px;
+}
+.app{
+    display: flex;
+    gap:80px;
+    font-size: 13px;
+}
+.app-1{
+    font-size: 13px;
+    display: flex; 
+    justify-content: right; 
+    padding-right: 18px;
+}
+
+.footer{
+    display: flex;
+    justify-content:space-around;
+    margin: 60px;
+    border-top: 3px solid orangered;
+    border-bottom: 3px solid black;
+    padding: 40px;
+}
+
+@media screen  and (max-width: 440px) {
+    .header{
+        width: 842px;
+        height: 162px;
+    }
+    h1{
+        font-size: 25px;
+    }
+   .name{
+    padding: 5px 10px;
+   }
+   .sub{
+    display: none;
+   }
+   .btn{
+    display: block;
+   }
+.main{
+    display: flex;
+    height: 600px;
+   
+    
+}
+.footer{
+    width: 840px;
+    padding:60px;
+    margin: -4px;
+    gap: 20px;
+    justify-content: space-between;
+    font-size: 15px;
+    height: 248px;
+}
+}
+
+
+
+
+
