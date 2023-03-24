@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    background-image:url("./z4207049597564_5d4a33ad4b97937edd81968d43caa3ea.jpg");
+    height: 350px;
+    width: 700px;
+    margin-left: 280px;
+    position: relative;
+}
+.now{
+position: relative;
+left: 0px;
+top: 269px;
+background-color: yellow;
+width: 400px;
+opacity: 0.5;
+}
+.now1{
+    padding-left: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+}
+.left{
+    border-top: 2px solid orange;
+}
+.main{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 30px;
+}
+.main1{
+    border-top: 2px solid orange ;
+}
